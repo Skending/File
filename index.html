@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме</title>
+    <link rel="stylesheet" href="indexCSS.css">
+    
 </head>
 <body>
-    <img src="https://sun9-68.userapi.com/impg/YPPLK2VZMHFkF9I8IDN-7Ua94Yv4xMWijxIrCA/RWv__R8V624.jpg?size=1080x1068&quality=95&sign=
+<div class="container">
+    <div class="info"> 
+    <img class="avatar" src="https://sun9-68.userapi.com/impg/YPPLK2VZMHFkF9I8IDN-7Ua94Yv4xMWijxIrCA/RWv__R8V624.jpg?size=1080x1068&quality=95&sign=
 a68739f06dec90617a8cdfe823e7321d&type=album" width="150" alt="аватарка">
+<div class="info-text">
     <h1>Николай Саяпин</h1>
     <p> <strong><em>Я начинаю изучать програмирование хочу сменить работу! </em></strong></p>
     <p>Мне нравится проводить время с друзьями , играть в компьюетрные игры, проводить время с девушкой </p>
     <a href="https://vk.com/skending"target="_blank">VK</a>
  |
     <a href="https://vk.com/skending"target="_blank">VK</a>
-    <h3> Мои Хобби</h3>
-        <ul>
+</div>
+</div>
+<div class="card bg-yellow">
+ <h3> Мои Хобби</h3>
+    
+    <p class="border-1">
+        <ol class="list">
             <li>Компьютеры</li>
             <li>Кино</li>
             <li>Техника</li>
-        </ul>
+        </ol>
 
+
+</div>
+
+<div class="card bg-red">
 <h3>Место работы</h3>
-<table>
+<table class="table">
     <thead>
         <tr>
             <th>Название</th>
@@ -37,28 +51,30 @@ a68739f06dec90617a8cdfe823e7321d&type=album" width="150" alt="аватарка">
             <td>2</td>
         </tr>
     </table>
-        <h2>Связаться со мной</h2>
-        <form>
-            <div>
+</div>
+        
+        <form class="form">
+            <h2>Связаться со мной</h2>
+            <div class="form-row"></div>
+            <div class="form-group">
                 <label for="name">Ваше Имя</label>
                  <input type="name"  id="name"
                  placeholder="Введите имя">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="email">Ваше email</label>
                  <input type="email"  id="email"
                  placeholder="Введите email">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="message">Ваше сообщение</label>
-                <br>
                 <textarea  id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
             </div>
-            <input type="submit" value="Отправить!">
+            <input class="btn" type="submit" value="Отправить!">
 
         </form>
     </tbody>
-
+</div>
 
 </body>
 </html>
